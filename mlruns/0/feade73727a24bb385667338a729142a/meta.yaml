@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/feade73727a24bb385667338a729142a/artifacts
+end_time: 1777444915711
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: feade73727a24bb385667338a729142a
+run_name: persistent-dog-968
+run_uuid: feade73727a24bb385667338a729142a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777444908325
+status: 3
+tags: []
+user_id: runner
