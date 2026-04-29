@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/7bf5f2f9bace466e89e4e494663e3b6c/artifacts
+end_time: 1777467820641
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7bf5f2f9bace466e89e4e494663e3b6c
+run_name: crawling-frog-640
+run_uuid: 7bf5f2f9bace466e89e4e494663e3b6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777467812369
+status: 3
+tags: []
+user_id: runner
