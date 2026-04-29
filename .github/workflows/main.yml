@@ -38,7 +38,7 @@ jobs:
         run: |
           RUN_ID=$(find mlruns/0 -maxdepth 1 -mindepth 1 -type d ! -name 'datasets' | head -1 | xargs basename)
           echo "Run ID: $RUN_ID"
-          mlflow models build-docker -m mlruns/0/$RUN_ID/artifacts/model -n ${{ secrets.DOCKER_USERNAME }}/diabetes-mlflow
+          mlflow models build-docker -m mlruns/0/$RUN_ID/artifacts/model -n ${{ secrets.DOCKER_USERNAME }}/diabetes-mlflow --env-manager local
           docker push ${{ secrets.DOCKER_USERNAME }}/diabetes-mlflow
 
       - name: Save artifacts to repository
